@@ -1,18 +1,14 @@
---- 
-id: "Git Folder"
+id: git-folder
 info: 
   author: Me
   name: "Git Folder Exposure"
   severity: medium
 requests: 
-  - 
-    matchers: 
-      - 
-        status: 
+  - matchers: 
+      - status: 
           - 200
         type: status
-      - 
-        part: body
+      - part: body
         type: word
         words: 
           - root
